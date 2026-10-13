@@ -1,0 +1,10 @@
+{
+  "status": "approved",
+  "approved_files": {
+    "candidates.json.gz": "d4b4786e82f03af2381b61b249d89e9dbbeb2aff304e8eb3337b9d33ed9c5644",
+    "full-game.json": "fd001d29797b8b37e9659d3f1b633e341094c4cce22aaeee2a214752f48c9369",
+    "full-game-capture.json.gz": "88469057c5bc6436c023aba9062a752a92437eda95afb20737ca476f31b39122"
+  },
+  "precedence": "Latest full-game dialogue supersedes earlier transcript wording and attack numbering.",
+  "supersessions_sha256": "c0b36209ce7fc9593a764fa2f82c2de9bff38455369c5392db77c1ea2e05faed"
+}

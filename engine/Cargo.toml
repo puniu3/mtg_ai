@@ -1,0 +1,10 @@
+[package]
+name = "burn-engine"
+version = "0.1.0"
+edition = "2024"
+publish = false
+default-run = "burn-engine"
+
+[dependencies]
+mtg-state-design = { path = "../research/full_state" }
+serde_json = "1"

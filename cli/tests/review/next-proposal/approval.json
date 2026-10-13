@@ -1,0 +1,36 @@
+{
+  "id": "255fe1e2-14af-40ce-a3d3-ec026a0e5791",
+  "saved_at": "2026-10-14T00:26:49+09:00",
+  "status": "golden_approved",
+  "scope": "golden_tests_and_cli_implementation",
+  "golden_approved": true,
+  "implementation_authorized": true,
+  "policy_decision_id": "c2cbc53a-77b0-4f6b-82b1-4dbe7281caba",
+  "golden_digest": "82d616a3d666b3d2b880b4c036e00292b704df19938a701dc14d53389dbf917e",
+  "manifest_sha256": "bdd38d90292a264a37984be56c669471c1e84317d9e91fe0a88d6dcb0f5e7232",
+  "manifest": {
+    "schema": 1,
+    "status": "pending_explicit_human_approval",
+    "policy_decision_id": "c2cbc53a-77b0-4f6b-82b1-4dbe7281caba",
+    "policy_revision": 2,
+    "case_count": 282,
+    "base_cases": 276,
+    "removed_legacy_cases": 8,
+    "added_cases": 14,
+    "changed_base_cases": 9,
+    "full_game_frames": 24,
+    "full_game_changed_frames": 4,
+    "files": {
+      "full-game.json": "2fe44a29a65155fdb9728ecd53782b2a6d20fc2cbbdc0a898db24d13b6c6f2a2",
+      "cases.json.gz": "d1b0f8bef33ae6eb6466e79213ea21d4d3d556d5995acf1a4e48f47cff17414a",
+      "policy-inputs.json.gz": "6f70411c080419302a2c35925d9a7ebab3888f2498e648b22999882813f198dc",
+      "policy-decision.json": "96df5c6049af6f5c8e839829c95caef1c9d6196acc610b2f9de67fb9155732a2"
+    },
+    "unchanged_runtime": {
+      "cli/main.py": "9438b7ac5c6a92c19a190fa617a1780199c5393d3900077db92f7d5b1839b0c1",
+      "cli/narration.py": "9a8f1539c16313a4a8711791f0c4d733dd63726cf97d00579ddf61cfb3867678",
+      "play-cli": "a82d1c2fff0d229a6aadfb5f633588aad353ff267164013277d6ea37b83bf29a"
+    },
+    "validation": "Expected text is independent of runtime. Source engine fixtures are inventory-audited. No claim that the current CLI passes this unapproved proposal."
+  }
+}

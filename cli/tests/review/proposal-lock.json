@@ -1,0 +1,6 @@
+{
+  "approval": "approved",
+  "candidate_file": "candidates.json.gz",
+  "sha256": "d4b4786e82f03af2381b61b249d89e9dbbeb2aff304e8eb3337b9d33ed9c5644",
+  "rule": "User explicitly requires human approval of golden I/O before runtime implementation changes. Passing an assertion is not approval."
+}

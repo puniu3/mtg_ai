@@ -1,0 +1,9 @@
+[package]
+name = "cli-review-fixtures"
+version = "0.1.0"
+edition = "2024"
+publish = false
+[dependencies]
+burn-engine = { path = "../../../../engine" }
+mtg-state-design = { path = "../../../../research/full_state" }
+serde_json = "1"

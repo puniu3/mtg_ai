@@ -1,0 +1,20 @@
+[
+  {
+    "id": "status-known-hand",
+    "previous": "あなたの2ターン目・戦闘前メイン。ライフ：あなた20／bot20。\n戦場：双方とも空。\n手札0枚：空。\nbotの手札4枚：うち稲妻2枚が既知。\nあなたの墓地：空。botの墓地：空。\nライブラリー：あなた50枚／bot50枚。\n土地は未プレイ。\n1. 何もせず優先権を渡す\ns: 全体状況",
+    "approved": "あなたの2ターン目・戦闘前メイン。ライフ：あなた20／bot20。\n戦場：双方とも空。\n手札0枚：空。\nbotの手札4枚（公開済み：稲妻2枚）。\nあなたの墓地：空。botの墓地：空。\nライブラリー：あなた50枚／bot50枚。\n土地は未プレイ。\n1. 何もせず優先権を渡す\ns: 全体状況",
+    "basis": "Latest approved full-game.json: status after s and final bot turn; same public-hand/target wording applied to isolated fixtures."
+  },
+  {
+    "id": "lethal-spell-1",
+    "previous": "botは山をタップし、稲妻が解決しました。\nあなたの敗北です。botの勝利。",
+    "approved": "botは山をタップし、あなたを対象に稲妻を解決しました。\nあなたの敗北です。botの勝利。",
+    "basis": "Latest approved full-game.json: status after s and final bot turn; same public-hand/target wording applied to isolated fixtures."
+  },
+  {
+    "id": "ending-burn-during-block",
+    "previous": "botは山をタップし、稲妻が解決しました。\nあなたの敗北です。botの勝利。",
+    "approved": "botは山をタップし、あなたを対象に稲妻を解決しました。\nあなたの敗北です。botの勝利。",
+    "basis": "Latest approved full-game.json: status after s and final bot turn; same public-hand/target wording applied to isolated fixtures."
+  }
+]
